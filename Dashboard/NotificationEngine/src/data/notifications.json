@@ -1,0 +1,214 @@
+[
+  {
+    "id": "notif-001",
+    "title": "Welcome to RISA",
+    "message": "Welcome to RISA Notification Engine! We're excited to have you on board.",
+    "type": "email",
+    "status": "delivered",
+    "priority": "normal",
+    "recipient": "john.doe@example.com",
+    "recipientName": "John Doe",
+    "templateId": "template-001",
+    "templateName": "Welcome Email",
+    "scheduledAt": "2024-01-15T10:00:00Z",
+    "sentAt": "2024-01-15T10:00:05Z",
+    "deliveredAt": "2024-01-15T10:00:12Z",
+    "metadata": {
+      "campaignId": "campaign-001",
+      "source": "user_registration"
+    },
+    "createdAt": "2024-01-15T09:55:00Z",
+    "updatedAt": "2024-01-15T10:00:12Z"
+  },
+  {
+    "id": "notif-002",
+    "title": "Password Reset Request",
+    "message": "You requested a password reset. Click the link to reset your password.",
+    "type": "email",
+    "status": "sent",
+    "priority": "high",
+    "recipient": "jane.smith@example.com",
+    "recipientName": "Jane Smith",
+    "templateId": "template-002",
+    "templateName": "Password Reset",
+    "scheduledAt": "2024-01-15T14:30:00Z",
+    "sentAt": "2024-01-15T14:30:02Z",
+    "metadata": {
+      "resetToken": "abc123def456",
+      "expiresAt": "2024-01-15T16:30:00Z"
+    },
+    "createdAt": "2024-01-15T14:29:45Z",
+    "updatedAt": "2024-01-15T14:30:02Z"
+  },
+  {
+    "id": "notif-003",
+    "title": "Order Confirmation",
+    "message": "Your order #12345 has been confirmed and will be processed shortly.",
+    "type": "sms",
+    "status": "delivered",
+    "priority": "normal",
+    "recipient": "+1234567890",
+    "recipientName": "Mike Johnson",
+    "templateId": "template-003",
+    "templateName": "Order Confirmation SMS",
+    "scheduledAt": "2024-01-15T16:45:00Z",
+    "sentAt": "2024-01-15T16:45:03Z",
+    "deliveredAt": "2024-01-15T16:45:08Z",
+    "metadata": {
+      "orderId": "12345",
+      "amount": 99.99,
+      "currency": "USD"
+    },
+    "createdAt": "2024-01-15T16:44:30Z",
+    "updatedAt": "2024-01-15T16:45:08Z"
+  },
+  {
+    "id": "notif-004",
+    "title": "System Maintenance Alert",
+    "message": "Scheduled maintenance will occur tonight from 2 AM to 4 AM EST.",
+    "type": "push",
+    "status": "delivered",
+    "priority": "high",
+    "recipient": "user-device-001",
+    "recipientName": "Sarah Wilson",
+    "templateId": "template-004",
+    "templateName": "System Alert",
+    "scheduledAt": "2024-01-15T18:00:00Z",
+    "sentAt": "2024-01-15T18:00:01Z",
+    "deliveredAt": "2024-01-15T18:00:05Z",
+    "metadata": {
+      "maintenanceWindow": "2024-01-16T02:00:00Z - 2024-01-16T04:00:00Z",
+      "affectedServices": ["api", "dashboard", "notifications"]
+    },
+    "createdAt": "2024-01-15T17:55:00Z",
+    "updatedAt": "2024-01-15T18:00:05Z"
+  },
+  {
+    "id": "notif-005",
+    "title": "Payment Failed",
+    "message": "Your payment could not be processed. Please update your payment method.",
+    "type": "email",
+    "status": "failed",
+    "priority": "urgent",
+    "recipient": "billing@company.com",
+    "recipientName": "Billing Team",
+    "templateId": "template-005",
+    "templateName": "Payment Failed",
+    "scheduledAt": "2024-01-15T20:15:00Z",
+    "sentAt": "2024-01-15T20:15:02Z",
+    "failedAt": "2024-01-15T20:15:10Z",
+    "failureReason": "SMTP server timeout",
+    "metadata": {
+      "paymentId": "pay_123456",
+      "amount": 299.99,
+      "retryCount": 3
+    },
+    "createdAt": "2024-01-15T20:14:30Z",
+    "updatedAt": "2024-01-15T20:15:10Z"
+  },
+  {
+    "id": "notif-006",
+    "title": "Weekly Report",
+    "message": "Your weekly activity report is ready. View it in your dashboard.",
+    "type": "email",
+    "status": "pending",
+    "priority": "low",
+    "recipient": "reports@example.com",
+    "recipientName": "Report Subscriber",
+    "templateId": "template-006",
+    "templateName": "Weekly Report",
+    "scheduledAt": "2024-01-16T09:00:00Z",
+    "metadata": {
+      "reportPeriod": "2024-01-08 to 2024-01-15",
+      "reportType": "weekly_summary"
+    },
+    "createdAt": "2024-01-15T21:00:00Z",
+    "updatedAt": "2024-01-15T21:00:00Z"
+  },
+  {
+    "id": "notif-007",
+    "title": "Security Alert",
+    "message": "Unusual login activity detected from a new device.",
+    "type": "push",
+    "status": "delivered",
+    "priority": "urgent",
+    "recipient": "user-device-002",
+    "recipientName": "Alex Brown",
+    "templateId": "template-007",
+    "templateName": "Security Alert",
+    "scheduledAt": "2024-01-15T22:30:00Z",
+    "sentAt": "2024-01-15T22:30:01Z",
+    "deliveredAt": "2024-01-15T22:30:04Z",
+    "metadata": {
+      "deviceInfo": "Chrome on Windows 11",
+      "location": "New York, NY",
+      "ipAddress": "192.168.1.100"
+    },
+    "createdAt": "2024-01-15T22:29:45Z",
+    "updatedAt": "2024-01-15T22:30:04Z"
+  },
+  {
+    "id": "notif-008",
+    "title": "Feature Update",
+    "message": "New features are now available! Check out the latest updates.",
+    "type": "webhook",
+    "status": "sent",
+    "priority": "normal",
+    "recipient": "https://api.example.com/webhooks/updates",
+    "templateId": "template-008",
+    "templateName": "Feature Update Webhook",
+    "scheduledAt": "2024-01-15T23:00:00Z",
+    "sentAt": "2024-01-15T23:00:02Z",
+    "metadata": {
+      "webhookId": "webhook_001",
+      "retryCount": 0,
+      "responseCode": 200
+    },
+    "createdAt": "2024-01-15T22:55:00Z",
+    "updatedAt": "2024-01-15T23:00:02Z"
+  },
+  {
+    "id": "notif-009",
+    "title": "Subscription Renewal",
+    "message": "Your subscription will renew in 7 days. Update your payment method if needed.",
+    "type": "email",
+    "status": "delivered",
+    "priority": "normal",
+    "recipient": "subscription@example.com",
+    "recipientName": "Subscription Manager",
+    "templateId": "template-009",
+    "templateName": "Subscription Renewal",
+    "scheduledAt": "2024-01-15T12:00:00Z",
+    "sentAt": "2024-01-15T12:00:03Z",
+    "deliveredAt": "2024-01-15T12:00:10Z",
+    "metadata": {
+      "subscriptionId": "sub_123456",
+      "renewalDate": "2024-01-22T12:00:00Z",
+      "amount": 29.99
+    },
+    "createdAt": "2024-01-15T11:55:00Z",
+    "updatedAt": "2024-01-15T12:00:10Z"
+  },
+  {
+    "id": "notif-010",
+    "title": "API Rate Limit Warning",
+    "message": "You're approaching your API rate limit. Consider upgrading your plan.",
+    "type": "email",
+    "status": "delivered",
+    "priority": "high",
+    "recipient": "api@example.com",
+    "recipientName": "API User",
+    "templateId": "template-010",
+    "templateName": "Rate Limit Warning",
+    "scheduledAt": "2024-01-15T15:30:00Z",
+    "sentAt": "2024-01-15T15:30:02Z",
+    "deliveredAt": "2024-01-15T15:30:08Z",
+    "metadata": {
+      "currentUsage": 8500,
+      "limit": 10000,
+      "resetDate": "2024-02-01T00:00:00Z"
+    },
+    "createdAt": "2024-01-15T15:25:00Z",
+    "updatedAt": "2024-01-15T15:30:08Z"
+  }
+]

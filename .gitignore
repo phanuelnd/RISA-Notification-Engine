@@ -1,0 +1,17 @@
+venv
+node_modules/
+.DS_Store
+*.log
+**/__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.env
+*.env
+media/
+*.pem
+Backend/.env
+Dashboard/.env
+Backend/staticfiles/
+Backend/celerybeat-schedule*
+txt.txt

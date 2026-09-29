@@ -1,0 +1,1 @@
+from .staff_auth_permission import AdminPermission

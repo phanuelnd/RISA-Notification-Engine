@@ -1,0 +1,106 @@
+{
+  "kpmData": [
+    {
+      "name": "Total Notifications",
+      "color": "#6366f1",
+      "change": "+12%",
+      "changeType": "positive"
+    },
+    {
+      "name": "Delivered",
+      "color": "#10b981",
+      "change": "+8%",
+      "changeType": "positive"
+    },
+    {
+      "name": "Failed",
+      "color": "#ef4444",
+      "change": "-3%",
+      "changeType": "negative"
+    },
+    {
+      "name": "Pending",
+      "color": "#f59e0b",
+      "change": "+2%",
+      "changeType": "neutral"
+    },
+    {
+      "name": "Templates",
+      "color": "#8b5cf6",
+      "change": "+5%",
+      "changeType": "positive"
+    },
+    {
+      "name": "Delivery Rate",
+      "color": "#06b6d4",
+      "change": "+2.1%",
+      "changeType": "positive"
+    },
+    {
+      "name": "Success Rate",
+      "color": "#84cc16",
+      "change": "+1.5%",
+      "changeType": "positive"
+    }
+  ],
+  "notificationTypeData": [
+    {
+      "name": "Email",
+      "value": 45,
+      "color": "#1976d2"
+    },
+    {
+      "name": "SMS",
+      "value": 30,
+      "color": "#dc004e"
+    },
+    {
+      "name": "Push",
+      "value": 20,
+      "color": "#2e7d32"
+    },
+    {
+      "name": "Webhook",
+      "value": 5,
+      "color": "#ed6c02"
+    }
+  ],
+  "notificationTrendData": [
+    {
+      "month": "Jan",
+      "sent": 1200,
+      "delivered": 1150,
+      "failed": 50
+    },
+    {
+      "month": "Feb",
+      "sent": 1350,
+      "delivered": 1280,
+      "failed": 70
+    },
+    {
+      "month": "Mar",
+      "sent": 1500,
+      "delivered": 1420,
+      "failed": 80
+    },
+    {
+      "month": "Apr",
+      "sent": 1650,
+      "delivered": 1580,
+      "failed": 70
+    },
+    {
+      "month": "May",
+      "sent": 1800,
+      "delivered": 1720,
+      "failed": 80
+    },
+    {
+      "month": "Jun",
+      "sent": 1950,
+      "delivered": 1860,
+      "failed": 90
+    }
+  ]
+}

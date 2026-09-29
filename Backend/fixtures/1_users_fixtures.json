@@ -1,0 +1,19 @@
+[
+    {
+        "model": "authentication.user",
+        "pk": 1,
+        "fields": {
+            "first_name": "SUPER",
+            "last_name": "ADMIN",
+            "email": "super.admin@notificationengine.org",
+            "is_staff": true,
+            "is_active": true,
+            "is_admin": true,
+            "is_superuser": true,
+            "is_verified": true,
+            "password": "pbkdf2_sha256$1000000$2N6waHRgOLJF8cxHZzuTUU$/FfnURO8h+cTWQFNAosB5yEH6EZrh3rbC2xjZ3xWOtY=",
+            "created_at": "2025-04-27T14:24:07.061Z",
+            "updated_at": "2025-04-27T14:24:07.061Z"
+        }
+    }
+]
